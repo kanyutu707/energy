@@ -43,7 +43,7 @@ const App = () => {
     
     try {
      
-      const response = await fetch('https://energy-prediction-backend.onrender.com', {
+      const response = await fetch('https://energy-prediction-backend.onrender.com/predict', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
